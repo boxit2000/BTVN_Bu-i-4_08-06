@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main{
+    border: 1px solid black;
+    width: 25%;
+    
+}
+.img img{
+    width: 100%;
+}
+/* .infor{
+    
+} */
+.email{
+    display: flex;
+    justify-content: center;
+}
+.password{
+    display: flex;
+    justify-content: center;
+}
+.button__delete {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.button__update {
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+}
+.btnAdd {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+}
+.btnAdd button{
+    /* padding: 10px; */
+    border-radius: 50%;
+    border: darkgrey;
+    /* background-color: blanchedalmond; */
+    cursor: pointer;
+}
+.fa-plus-circle{
+    /* border: none; */
+    font-size: 40px;
+    color: darkgrey;
+}
+
+/* btndelete */
+.btnDelete {
+    position: absolute;
+    bottom: 30px;
+    right: 90px;
+    position: fixed;
+}
+.btnDelete button{
+    /* padding: 10px; */
+    border-radius: 50%;
+    border: darkgrey;
+    /* background-color: blanchedalmond; */
+    cursor: pointer;
+}
+.fa-trash-alt{
+    /* border: none; */
+    font-size: 40px;
+    color: darkgrey;
+}
+/* btnUpdate */
+.btnUpdate {
+    position: absolute;
+    bottom: 30px;
+    right: 150px;
+    position: fixed;
+}
+.btnUpdate button{
+    /* padding: 10px; */
+    border-radius: 50%;
+    border: darkgrey;
+    /* background-color: blanchedalmond; */
+    cursor: pointer;
+}
+.fa-pen{
+    /* border: none; */
+    font-size: 40px;
+    color: darkgrey;
+}

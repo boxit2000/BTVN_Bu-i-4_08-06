@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/39893cbee0.js" crossorigin="anonymous"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.6.5/firebase-firestore.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+
+<script>
+    const firebaseConfig = {
+        databaseURL: "https://mindx-08-06.firebaseio.com",
+        apiKey: "AIzaSyB81mYB1ACMW1MxNwBpt-bSfadAitvsa-0",
+        authDomain: "mindx-08-06.firebaseapp.com",
+        projectId: "mindx-08-06",
+        storageBucket: "mindx-08-06.appspot.com",
+        messagingSenderId: "925968234387",
+        appId: "1:925968234387:web:ca2ede71f25175e52d5a66"
+    }
+    firebase.initializeApp(firebaseConfig);
+</script>
+
+<body>
+    <div class="container" id="container">
+        <!-- <div class="main">
+            <div class="img">
+                <img src="https://www.pngitem.com/pimgs/m/80-800194_transparent-users-icon-png-flat-user-icon-png.png"
+                    alt="">
+            </div>
+            <div class="infor">
+                <div class="email">
+                    <p>Email:</p>
+                    <p>1</p>
+                </div>
+                <div class="password">
+                    <p>PassWord:</p>
+                    <p>1</p>
+                </div>
+            </div> -->
+            <!-- <div class="button"> -->
+            <!-- <div class="button__delete">
+                <button  class="btn_delete">Delete</button>
+            </div>
+            <div class="button__update">
+                <button class="btn_update">Update</button>
+            </div> -->
+            <!-- </div> -->
+        <!-- </div> -->
+
+    </div>
+    <div class="btnAdd">
+        <button id="btn-add"><i class="fas fa-plus-circle"></i></button>
+    </div>
+    <div class="btnDelete">
+        <button id="btn-delete"><i class="fas fa-trash-alt"></i></button>
+    </div>
+    <div class="btnUpdate">
+        <button id="btn-update"><i class="fas fa-pen"></i></button>
+    </div>
+
+</body>
+<script src="./index.js" type="module"></script>
+
+</html>
